@@ -7,13 +7,14 @@ class Angular extends Module
 {
     public function __construct()
     {
+        
         $this->name = 'angular';
-        $this->version = '0.1';
-        $this->author = 'Chihab Otmani';
+        $this->version = '0.1.3';
+        $this->author = 'Biomassives Group Ltd';
         $this->tab = 'administration';
-        $this->displayName = $this->l('Prestashop Module based on AngularJS');
-        $this->description = $this->l('A great starting point for writing Prestashop Modules based on AngularJS');
-
+        $this->displayName = $this->l('Sweetwave Manufacturers Based Pricing Options');
+        $this->description = $this->l('Choose which manufacturers will display pricing and checkout');
+        
         parent::__construct();
     }
 
